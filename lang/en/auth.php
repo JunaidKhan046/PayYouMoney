@@ -14,7 +14,12 @@ return [
     */
 
     'failed' => 'These credentials do not match our records.',
-    'password' => 'The provided password is incorrect.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-
+    'logout' => 'Successfully logged out',
+    'loginSuccess' => 'Login Successfully.',
+    'registerSuccess' => 'Register Successfully.',
+    'verified' => 'email already verified.',
+    'verify'=> 'Your email verification link has been successfully sent.',
+    'verifySuccess' => 'Email verify successfully.',
+    'verifyFail' => 'Your email address is not verified.'
 ];
