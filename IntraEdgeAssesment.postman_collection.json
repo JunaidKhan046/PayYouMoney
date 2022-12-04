@@ -1,0 +1,98 @@
+{
+	"variables": [],
+	"info": {
+		"name": "IntraEdgeAssesment",
+		"_postman_id": "192e5933-d589-e6f6-3f63-d4da67622456",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/api/auth/store-csv",
+			"request": {
+				"url": "http://localhost/api/auth/store-csv",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5N2U1ZjhlMC05NTJmLTRkNWItODQ0ZC00OTlmNzRkZjhiMWQiLCJqdGkiOiI4OTk1MTVkMWJiOTNkOTgxMzMwNmJmMmVmYjVmZWI0ZTg2NzA1OTY2MmZmZDI3ZDQ0MGQ1MTA4ZGQ2NGNkNjk3OWM5NDQyZjdjODEzOTllNCIsImlhdCI6MTY3MDEzOTgyMS45MzQ4OTQsIm5iZiI6MTY3MDEzOTgyMS45MzQ4OTgsImV4cCI6MTY4NTg2NDYyMS45MzAwMTYsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.LBbO2DucQT6ZnWNUh_pPg-O8BKz8V4CByvpZSsFfjZsLnZjNbHPQn5Egks07zOcaR2tgNG2Wh5QxVFBnDISgS7oKgb-T_tcqIcGALxAU37h6TmBbu_9JS8ro-T1osv5zW7ESo_lmad9s3RCHcxaOznNCxMTLGUbLyPnumGy25v2CT6Hv918FdfeMhVNx_5E9gk0th6-BseTPczhL5gtn9Ae5WtKj_ZPfRpzYMPkiCWSBScejKD1gnQNnN-R9z4tt7hVyZTE34spI0E4Zwvz3RBFpQNW_KTlxLkU2fixzNJ8eRPFW_CEVfDLh8qp36GH0zFbda4LEF7wqc-5cUxsHrV0virDg4nMdHZz0O9YcG2duBNcWn4EM_7vpOIOTqT770pH-RcpS5LL7i9386u5d_ZqNE99z71MRaU7fWPQi01tSZLfpwYup3pwtfvKNupVQ8luAIdUiGUiUCpQ_bc2sGc4rw19ZDO0jhut5dwADuBHklEYlEtWsn_JwmAXkyxq53iYAfPOHFHQClABBskpDQYwnXWeQr0dk0VdWo8qqgsn3LCo0QhxjNnmqWVBuEzsqRx6E6H99TMaSLUS1lH9JEMKwazRLDl_z3sSyIlxnGuq2cyS0M8_pm9Xeg9ms8ohufIbRfOXRchBuyJdzhaqpa9Wazawo-2MAGUyq1bLuUCo",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/auth/login",
+			"request": {
+				"url": "http://localhost/api/auth/login",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\":\"khanjunaid046@gmail.com\",\n\t\"password\": \"12345678\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/auth/register",
+			"request": {
+				"url": "http://localhost/api/auth/register",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Juned\",\n\t\"email\":\"khanjunaid046@gmail.com\",\n\t\"password\": \"12345678\",\n\t\"password_confirmation\": \"12345678\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api/auth/logout",
+			"request": {
+				"url": "http://localhost/api/auth/logout",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5N2U1ZjhlMC05NTJmLTRkNWItODQ0ZC00OTlmNzRkZjhiMWQiLCJqdGkiOiI4OTk1MTVkMWJiOTNkOTgxMzMwNmJmMmVmYjVmZWI0ZTg2NzA1OTY2MmZmZDI3ZDQ0MGQ1MTA4ZGQ2NGNkNjk3OWM5NDQyZjdjODEzOTllNCIsImlhdCI6MTY3MDEzOTgyMS45MzQ4OTQsIm5iZiI6MTY3MDEzOTgyMS45MzQ4OTgsImV4cCI6MTY4NTg2NDYyMS45MzAwMTYsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.LBbO2DucQT6ZnWNUh_pPg-O8BKz8V4CByvpZSsFfjZsLnZjNbHPQn5Egks07zOcaR2tgNG2Wh5QxVFBnDISgS7oKgb-T_tcqIcGALxAU37h6TmBbu_9JS8ro-T1osv5zW7ESo_lmad9s3RCHcxaOznNCxMTLGUbLyPnumGy25v2CT6Hv918FdfeMhVNx_5E9gk0th6-BseTPczhL5gtn9Ae5WtKj_ZPfRpzYMPkiCWSBScejKD1gnQNnN-R9z4tt7hVyZTE34spI0E4Zwvz3RBFpQNW_KTlxLkU2fixzNJ8eRPFW_CEVfDLh8qp36GH0zFbda4LEF7wqc-5cUxsHrV0virDg4nMdHZz0O9YcG2duBNcWn4EM_7vpOIOTqT770pH-RcpS5LL7i9386u5d_ZqNE99z71MRaU7fWPQi01tSZLfpwYup3pwtfvKNupVQ8luAIdUiGUiUCpQ_bc2sGc4rw19ZDO0jhut5dwADuBHklEYlEtWsn_JwmAXkyxq53iYAfPOHFHQClABBskpDQYwnXWeQr0dk0VdWo8qqgsn3LCo0QhxjNnmqWVBuEzsqRx6E6H99TMaSLUS1lH9JEMKwazRLDl_z3sSyIlxnGuq2cyS0M8_pm9Xeg9ms8ohufIbRfOXRchBuyJdzhaqpa9Wazawo-2MAGUyq1bLuUCo",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

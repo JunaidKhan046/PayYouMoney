@@ -7,6 +7,49 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# About Installation Instruction
+
+Step-1 : Clone Git repositery file
+
+Step-2 : Run command docker-compose up -d
+
+Step-3 : Change the project directory IntraEdgeAssesment/
+
+Step-4 : Verify container image name laravel.test1
+
+Step-5 Run command docker exec -it <container_name> /bin/bash
+
+Step-6 Run Command composer install --no-scripts
+
+Step-7 Run command php artisan migrate
+
+Step-8 Run command php artisan passport:install --uuids
+
+Step-9 Run command php artisan passport:keys
+
+Step-10 Run command php artisan config:cache
+                   php artisan config:clear
+                   php artisan route:clear
+                   php artisan route:cache
+
+Step-11 Run command php artisan if it is required (optional) and http://localhost
+
+Step-12 Run Command php artisan csv:generate 10 (Create a new csv file and there is n number of argument you can pass)
+
+Step-13 open the postman and import the IntraEdgeAssesment.postman_collection.json file your postman (this file exist in same project directory)
+
+Step-14 Register or Login user and pass the bearear token inside the Store CSV API header.
+
+Step-15 You get job completed message and recieve an email notification
+
+Note DB:-
+Username:sail
+Password:password
+
+
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
