@@ -21,26 +21,28 @@ Step-5 Run command docker exec -it <container_name> /bin/bash
 
 Step-6 Run Command composer install --no-scripts
 
-Step-7 Run command php artisan migrate
+Step-7 Run Command npm install && npm run dev
 
-Step-8 Run command php artisan passport:install --uuids
+Step-8 Run command php artisan migrate
 
-Step-9 Run command php artisan passport:keys
+Step-9 Run command php artisan passport:install --uuids
 
-Step-10 Run command php artisan config:cache
+Step-10 Run command php artisan passport:keys
+
+Step-11 Run command php artisan config:cache
                    php artisan config:clear
                    php artisan route:clear
                    php artisan route:cache
 
-Step-11 Run command php artisan serve if it is required (optional) and http://localhost
+Step-12 Run command php artisan serve if it is required (optional) and http://localhost
 
-Step-12 Run Command php artisan csv:generate 10 (Create a new csv file and there is n number of argument you can pass)
+Step-13 Run Command php artisan csv:generate 10 (Create a new csv file and there is n number of argument you can pass)
 
-Step-13 open the postman and import the IntraEdgeAssesment.postman_collection.json file your postman (this file exist in same project directory)
+Step-14 open the postman and import the IntraEdgeAssesment.postman_collection.json file your postman (this file exist in same project directory)
 
-Step-14 Register or Login user and pass the bearear token inside the Store CSV API header.
+Step-15 Register or Login user and pass the bearear token inside the Store CSV API header.
 
-Step-15 You get job completed message and recieve an email notification
+Step-16 You get job completed message and recieve an email notification
 
 Note DB:-
 Username:sail
