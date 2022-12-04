@@ -32,7 +32,7 @@ Step-10 Run command php artisan config:cache
                    php artisan route:clear
                    php artisan route:cache
 
-Step-11 Run command php artisan if it is required (optional) and http://localhost
+Step-11 Run command php artisan serve if it is required (optional) and http://localhost
 
 Step-12 Run Command php artisan csv:generate 10 (Create a new csv file and there is n number of argument you can pass)
 
