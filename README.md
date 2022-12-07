@@ -13,7 +13,7 @@ Step-1 : Clone Git repositery file
 
 Step-2 : Run command docker-compose up -d
 
-Step-3 : Change the project directory IntraEdgeAssesment/
+Step-3 : Change the project directory PayYouMoney/
 
 Step-4 : Verify container image name laravel.test1
 
