@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PayuMoneyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,11 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::any('/payu-money-payment', [PayuMoneyController::class, 'redirectToPayU'])->name('redirectToPayU');
+    Route::any('/payu-money-payment-cancel', [PayuMoneyController::class,'paymentCancel'])->name('payumoney-cancel');
+    Route::any('/payu-money-payment-success', [PayuMoneyController::class, 'paymentSuccess'])->name('payumoney-success');
 });
+
+
 
 require __DIR__.'/auth.php';
