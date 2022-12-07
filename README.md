@@ -44,6 +44,16 @@ Step-15 : Register or Login user and pass the bearear token inside the Store CSV
 
 Step-16 : You get job completed message and recieve an email notification
 
+## PayUMoney Testing
+
+Step-17 : create a user account and login that account.
+
+Step-18 : click payment link button and make a testing transcation.
+
+Step-19 Fill all that details and complete the transaction.
+
+Step-20 when you complete that transaction success and failer page based on transaction status.
+
 Note DB:-
 Username:sail
 Password:password
