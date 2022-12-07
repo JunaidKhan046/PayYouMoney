@@ -50,9 +50,9 @@ Step-17 : create a user account and login that account.
 
 Step-18 : click payment link button and make a testing transcation.
 
-Step-19 Fill all that details and complete the transaction.
+Step-19 : Fill all that details and complete the transaction.
 
-Step-20 when you complete that transaction success and failer page based on transaction status.
+Step-20 : when you complete that transaction success and failer page based on transaction status.
 
 Note DB:-
 Username:sail
